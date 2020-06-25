@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.automation.social.networks;
+package gmail;
 
 /**
  * @author jayso

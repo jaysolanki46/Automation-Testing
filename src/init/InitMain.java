@@ -1,6 +1,6 @@
-package com.automation.social.networks.init;
+package init;
 
-import com.automation.social.networks.Gmail;
+import gmail.Gmail;
 
 public class InitMain {
 	
