@@ -1,12 +1,15 @@
 package init;
 
-import gmail.Gmail;
+import java.awt.AWTException;
+
+import crowdpie.CrowdPie;
 
 public class InitMain {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException, AWTException {
 		
-		Gmail gmail = new Gmail();
-		gmail.login();
+		//new CrowdPie("Git@test.com", "MyPassword", "998877");
+		new CrowdPie("Git@test.com", "MyPassword");
+		
 	}
 }
